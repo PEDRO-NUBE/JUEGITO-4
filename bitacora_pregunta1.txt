@@ -1,0 +1,220 @@
+    1  sudo apt-get upgrade
+    2  clear
+    3  sudo apt-get upgrade
+    4  apt-get upgrade
+    5  sudo apt upgrade
+    6  clear
+    7  mkdir Expedientes/
+    8  cd Expedientes/
+    9  touch file1.txt
+   10  touch file2.txt
+   11  rm file1.txt
+   12  rm file2.txt
+   13  clear
+   14  mkdir Plantilla/
+   15  mkdir Software
+   16  mkdir Trabajos
+   17  cd Plantillas/
+   18  cd Plantillas
+   19  cd Plantilla
+   20  touch file1.txt
+   21  touch file2.txt
+   22  cd ..
+   23  cd Trabajos
+   24  mkdir Clases
+   25  mkdir Examenes
+   26  cd Clases
+   27  touch clase01.txt
+   28  touch clase02.txt
+   29  cd ..
+   30  cd Examenes
+   31  touch examene1.txt
+   32  touch examene2.txt
+   33  touch examene3.txt
+   34  cd ..
+   35  tree
+   36  sudo apt install tree
+   37  tree
+   38  cd Plantilla/
+   39  cat > file1.txt
+   40  cat > file2.txt
+   41  cd ..
+   42  cd Trabajos/Clases/
+   43  touch clase01.txt
+   44  touch clase02.txt
+   45  ls
+   46  touch msn.txt
+   47  ls
+   48  cat > clase01.txt
+   49  cat > clase02.txt
+   50  cat > msn.txt
+   51  cd ..
+   52  cd Examenes/
+   53  ls
+   54  cat > examen1.txt
+   55  cat > examen2.txt
+   56  cat > examen3.txt
+   57  cat examen2.txt
+   58  cd ..
+   59  cd Clases/
+   60  ls
+   61  cat > clase01.txt
+   62  cat clase01.txt
+   63  cat > clase01.txt
+   64  cat clase01.txt
+   65  cat >> clase01.txt
+   66  cat clase01.txt
+   67  cd ..
+   68  cd Plantilla/
+   69  cat file1.txt
+   70  ls
+   71  cp file1.txt ../Software/
+   72  cd ..
+   73  cd Software/
+   74  ls
+   75  cd ..
+   76  cd Plantilla/
+   77  cp file1.txt ../Trabajos/Examenes/
+   78  cd ..
+   79  cd Trabajos/Clases/
+   80  ls
+   81  cd ..
+   82  cd Clases
+   83  cd ..
+   84  cd Examenes/
+   85  ls
+   86  clear
+   87  cd ../Clases/
+   88  ls
+   89  mv clase01.txt clasemartes.txt
+   90  ls
+   91  cd ..
+   92  clear
+   93  ls
+   94  mv Examenes Clases/
+   95  ls
+   96  ls Clases/
+   97  cd Clases/
+   98  ls
+   99  mv msn.txt ../Sofware
+  100  cd ..
+  101  ls Software/
+  102  cd Trabajos/
+  103  ls
+  104  cd Sofware
+  105  ls
+  106  cd..
+  107  cd ..
+  108  ls
+  109  clear
+  110  cd Trabajos/Clases/
+  111  ls
+  112  touch msn.txt
+  113  clear
+  114  ls
+  115  mv msn.txt ../../Software/
+  116  cd ..
+  117  ls Software/
+  118  clear
+  119  ls
+  120  rm -r Software/
+  121  ls
+  122  clear
+  123  ls
+  124  cp -r Trabajos trabajos_de_respaldo
+  125  ls
+  126  rm clase02.txt Trabajos/Clases/
+  127  celar
+  128  clear
+  129  cd Trabajos/Clases/
+  130  clear
+  131  rm clase02.txt
+  132  ls
+  133  tree
+  134  ls
+  135  cd Examen
+  136  cd Examenes/
+  137  clear
+  138  ls -R
+  139  tree
+  140  clear
+  141  tree
+  142  cd
+  143  cd Expedientes/
+  144  clear
+  145  find -type d > expedientearchivo.txt
+  146  ls
+  147  cat expedientearchivo.txt
+  148  clear
+  149  cp expedientearchivo.txt Plantilla/
+  150  ls Plantilla/
+  151  clear
+  152  ls expedientearchivo.txt 
+  153  clear
+  154  cat expedientearchivo.txt 
+  155  cat >> expedientearchivo.txt 
+  156  cat expedientearchivo.txt 
+  157  cd
+  158  clear
+  159  history > bitacora-evaluación.txt
+  160  ls
+  161  sudo apt-get update
+  162  sudo apt-get upgrade
+  163  git config --global user.name "JUAN WALBERTO SIVINCHA JIRE"
+  164  sudo apt install git
+  165  git --version
+  166  git config --global user.name "JUAN WALBERTO SIVINCHA JIRE"
+  167  git config --global user.name "jsivinchaj@unsa.edu.pe"
+  168  git config --global --list
+  169  git config --global user.email "jsivinchaj@unsa.edu.pe"
+  170  git config --global --list
+  171  pwd
+  172  mkdir examen01
+  173  cd examen01/
+  174  mkdir pregunta01
+  175  mkdir pregunta02
+  176  mkdir pregunta03
+  177  mkdir pregunta04
+  178  mkdir pregunta05
+  179  mkdir pregunta06
+  180  mkdir pregunta07
+  181  mkdir pregunta08
+  182  mkdir pregunta09
+  183  mkdir pregunta10
+  184  touch pregunta01/archivo_de_texto1.txt
+  185  tree
+  186  touch pregunta01/archivo_de_texto2.txt
+  187  touch pregunta01/archivo_de_texto3.txt
+  188  touch pregunta02/archivo_de_texto1.txt
+  189  touch pregunta02/archivo_de_texto2.txt
+  190  touch pregunta02/archivo_de_texto3.txt
+  191  touch pregunta03/archivo_de_texto1.txt
+  192  touch pregunta03/archivo_de_texto2.txt
+  193  touch pregunta03/archivo_de_texto3.txt
+  194  touch pregunta04/archivo_de_texto1.txt
+  195  touch pregunta04/archivo_de_texto2.txt
+  196  touch pregunta04/archivo_de_texto3.txt
+  197  touch pregunta05/archivo_de_texto1.txt
+  198  touch pregunta05/archivo_de_texto2.txt
+  199  touch pregunta05/archivo_de_texto3.txt
+  200  touch pregunta06/archivo_de_texto1.txt
+  201  touch pregunta06/archivo_de_texto2.txt
+  202  touch pregunta06/archivo_de_texto3.txt
+  203  touch pregunta07/archivo_de_texto1.txt
+  204  touch pregunta07/archivo_de_texto2.txt
+  205  touch pregunta07/archivo_de_texto3.txt
+  206  touch pregunta08/archivo_de_texto1.txt
+  207  touch pregunta08/archivo_de_texto2.txt
+  208  touch pregunta08/archivo_de_texto3.txt
+  209  touch pregunta09/archivo_de_texto1.txt
+  210  touch pregunta09/archivo_de_texto2.txt
+  211  touch pregunta09/archivo_de_texto3.txt
+  212  touch pregunta10/archivo_de_texto1.txt
+  213  touch pregunta10/archivo_de_texto2.txt
+  214  touch pregunta10/archivo_de_texto3.txt
+  215  tree
+  216  git init
+  217  git add -A
+  218  git -commit -m"EXAMEN"
+  219  git status
+  220  history > bitacora_pregunta1.txt

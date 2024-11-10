@@ -1,0 +1,60 @@
+    1  clear
+    2  cd examen01/
+    3  tree
+    4  mkdir pregunta01/solucionario_pregunta1
+    5  cd pregunta1
+    6  cd pregunta01
+    7  ls
+    8  cd ..
+    9  mkdir pregunta02/solucionario_pregunta
+   10  mkdir pregunta03/solucionario_pregunta
+   11  mkdir pregunta04/solucionario_pregunta
+   12  mkdir pregunta05/solucionario_pregunta
+   13  mkdir pregunta06/solucionario_pregunta
+   14  mkdir pregunta07/solucionario_pregunta
+   15  mkdir pregunta08/solucionario_pregunta
+   16  mkdir pregunta09/solucionario_pregunta
+   17  mkdir pregunta10/solucionario_pregunta
+   18  touch pregunta01/solucionario.txt
+   19  touch pregunta02/solucionario.txt
+   20  touch pregunta03/solucionario.txt
+   21  touch pregunta04/solucionario.txt
+   22  touch pregunta05/solucionario.txt
+   23  touch pregunta06/solucionario.txt
+   24  touch pregunta07/solucionario.txt
+   25  touch pregunta08/solucionario.txt
+   26  touch pregunta09/solucionario.txt
+   27  touch pregunta10/solucionario.txt
+   28* cd pregunta
+   29  ls pregunta01/solucionario_pregunta1/
+   30  cd pregunta01
+   31  cd solucionario_pregunta1/
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd ..
+   36  touch pregunta01/solucionario_pregunta/solucionario.txt
+   37  touch pregunta01/solucionario_pregunta1/solucionario.txt
+   38  touch pregunta02/solucionario_pregunta/solucionario.txt
+   39  touch pregunta03/solucionario_pregunta/solucionario.txt
+   40  touch pregunta04/solucionario_pregunta/solucionario.txt
+   41  touch pregunta05/solucionario_pregunta/solucionario.txt
+   42  touch pregunta06/solucionario_pregunta/solucionario.txt
+   43  touch pregunta07/solucionario_pregunta/solucionario.txt
+   44  touch pregunta08/solucionario_pregunta/solucionario.txt
+   45  touch pregunta09/solucionario_pregunta/solucionario.txt
+   46  touch pregunta10/solucionario_pregunta/solucionario.txt
+   47  ls pregunta1/solucionario_pregunta1
+   48  ls
+   49  ls pregunta01/solucionario_pregunta1
+   50  ls pregunta02/solucionario_pregunta1
+   51  ls pregunta02/solucionario_pregunta
+   52  ls pregunta03/solucionario_pregunta
+   53  ls pregunta04/solucionario_pregunta
+   54  ls pregunta05/solucionario_pregunta
+   55  ls pregunta06/solucionario_pregunta
+   56  ls pregunta07/solucionario_pregunta
+   57  ls pregunta08/solucionario_pregunta
+   58  ls pregunta09/solucionario_pregunta
+   59  ls pregunta10/solucionario_pregunta
+   60  history >bitacora_pregunta2.txt
